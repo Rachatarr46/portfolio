@@ -1,0 +1,82 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+/* ...ใส่ CSS อื่นๆ ตามเดิม... */html {
+  scroll-behavior: smooth;
+}
+
+header {
+  background: #646464;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+header h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+nav a:hover {
+  color: #f39c12;
+}
+section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+}
+.hero {
+  background: linear-gradient(120deg, #000);
+}
+.skills {
+  background: #1e1e1e;
+}
+.portfolio {
+  background: #111;
+}
+.contact {
+  background: #0d0d0d;
+}
+h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  animation: slideUp 1s ease-out;
+}
+p {
+  max-width: 700px;
+  font-size: 18px;
+}
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid white;
+  object-fit: cover;
+  margin-top: 20px;
+}
+@keyframes slideUp {
+  from { transform: translateY(30px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
