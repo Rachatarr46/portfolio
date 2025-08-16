@@ -86,9 +86,9 @@ export function IconCloudDemo({}: IconCloudDemoProps) {
           const phi = Math.acos(-1 + (2 * index) / icons.length);
           const theta = Math.sqrt(icons.length * Math.PI) * phi;
           
-          const x = Math.cos(theta) * Math.sin(phi) * 120;
-          const y = Math.sin(theta) * Math.sin(phi) * 120;
-          const z = Math.cos(phi) * 120;
+          const x = Math.cos(theta) * Math.sin(phi) * 80;
+          const y = Math.sin(theta) * Math.sin(phi) * 80;
+          const z = Math.cos(phi) * 80;
 
           return (
             <div
