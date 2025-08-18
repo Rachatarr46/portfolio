@@ -3,7 +3,7 @@ import {
   FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaPhp, 
   FaPython, FaGitAlt, FaDocker, FaAws
 } from "react-icons/fa";
-import { SiNextdotjs, SiMysql, SiTensorflow, SiMongodb, SiTypescript } from "react-icons/si";
+import { SiNextdotjs, SiMysql, SiMongodb, SiTypescript } from "react-icons/si";
 
 interface IconCloudDemoProps {}
 
@@ -60,7 +60,7 @@ export function IconCloudDemo({}: IconCloudDemoProps) {
     <FaGitAlt key="git" className="w-8 h-8 text-orange-600" />,
     <SiNextdotjs key="next" className="w-8 h-8 text-black" />,
     <SiMysql key="mysql" className="w-8 h-8 text-blue-700" />,
-    <SiTensorflow key="tensorflow" className="w-8 h-8 text-orange-500" />,
+
     <FaDocker key="docker" className="w-8 h-8 text-blue-500" />,
     <FaAws key="aws" className="w-8 h-8 text-orange-600" />,
     <SiMongodb key="mongodb" className="w-8 h-8 text-green-600" />,
